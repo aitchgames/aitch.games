@@ -49,6 +49,11 @@ a{
     top: 2%;
 }
 
+.img1{
+    position: absolute;
+    left: 0%;
+}
+
 
 .bgPages{
     height: 100px;
