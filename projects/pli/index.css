@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    width: 90%;
+    background-image: linear-gradient(to right top, #6e7000, #171500);
+}
+a{
+    cursor: pointer;
+}
+::selection{
+    background: #7e8200;
+    color: #ffffff;
+}
+
+.bgBox{
+    min-height: 100vh;
+    width: 98%;
+    background-image: radial-gradient(#5a5a5a, #2a2a2a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 45%;
+}
+.textTitle{
+    position: absolute;
+    top: 2%;
+    left: 2%
+}
+
+.bgProjects{
+    min-height: 50%;
+    width: 95%;
+    background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textProjects{
+    color: rgba(255, 255, 255, 255);
+    position: absolute;
+    left: 0.5%;
+    top: 2%;
+}
+
+.img1{
+    position: absolute;
+    left: 0%;
+}
+
+
+.bgPages{
+    height: 100px;
+    width: 80%;
+    background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    position: fixed;
+    bottom: -6.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
