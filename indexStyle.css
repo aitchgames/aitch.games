@@ -12,7 +12,7 @@ a{
 }
 
 .bgBox{
-    min-height: 100vh;
+    min-height: 120vh;
     width: 98%;
     background-image: radial-gradient(#5a5a5a, #2a2a2a);
     display: flex;
