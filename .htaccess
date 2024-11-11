@@ -2,4 +2,8 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteRule ^home/?$ index.html [L]
+RewriteRule ^projects/?$ /projects/index.html [L]
 RewriteRule ^updates/?$ /updates/index.html [L]
+RewriteRule ^aboutus/?$ /aboutus/index.html [L]
