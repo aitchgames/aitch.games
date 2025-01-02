@@ -1,0 +1,74 @@
+body{
+    height: 100vh;
+    width: 90%;
+    background-image: linear-gradient(to right top, #130031, #070017);
+}
+a{
+    cursor: pointer;
+}
+::selection{
+    background: #6200ff;
+    color: #ffffff;
+}
+
+.bgBox{
+    min-height: 100vh;
+    width: 98%;
+    background-image: radial-gradient(#5a5a5a, #2a2a2a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 45%;
+}
+.textTitle{
+    position: absolute;
+    top: 2%;
+    left: 2%
+}
+
+.bgLog3{
+    min-height: 95%;
+    width: 95%;
+    background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 71.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textLog3-3{
+    color: rgba(255, 255, 255, 255);
+    position: absolute;
+    left: 0.5%;
+    top: 2%;
+}
+.textLog3Time{
+    color: rgba(255, 255, 255, 255);
+    position: absolute;
+    top: 130%;
+}
+.img1 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 500px;
+}
+
+.bgPages{
+    height: 100px;
+    width: 80%;
+    background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    position: fixed;
+    bottom: -6.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
