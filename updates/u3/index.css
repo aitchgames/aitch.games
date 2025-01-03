@@ -72,3 +72,33 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*device compatability*/
+
+@media (max-width: 450px){
+    .textTitle{
+        top: 0%;
+        left: 2%;
+    }
+    .bgLog3{
+        height: 30%;
+        top: 70%;
+    }
+    .textLog3-3 span{
+        font-size: 17px !important;
+    }
+    .textLog3Time{
+        top: 210%;
+    }
+    .img1 img{
+        height: 90%;
+        width: 90%;
+    }
+    .bgPages{
+        height: 75px;
+        bottom: -6%;
+    }
+    .bgPages span{
+        font-size: 23px !important;
+    }
+}
