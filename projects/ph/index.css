@@ -71,3 +71,31 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media (max-width: 450px){
+    .textTitle{
+        top: 0%;
+        left: 2%;
+    }
+    .bgProjects{
+        height: 100%;
+        top: 75%;
+    }
+    .img1 img{
+        height: 150px !important;
+    }
+    .img2{
+        top: 60%;
+        left: 3%;
+    }
+    .img2 img{
+        height: 120px !important;
+    }
+    .bgPages{
+        height: 75px;
+        bottom: -6%;
+    }
+    .bgPages span{
+        font-size: 23px !important;
+    }
+}
