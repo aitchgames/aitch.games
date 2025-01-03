@@ -166,7 +166,7 @@ a{
 
 /*device compatability*/
 
-@media (max-width: 600px){
+@media (min-width: 600px){
     .textTitle{
         position: absolute;
         top: 0%;
@@ -250,7 +250,7 @@ a{
     }
 }
 
-@media (max-width: 430px){
+@media (min-width: 400px){
     .textTitle{
         position: absolute;
         top: 0%;
@@ -333,7 +333,7 @@ a{
         font-size: 23px !important;
     }
 }
-@media (max-width: 1440px){
+@media (min-width: 1440px){
     .textTitle{
         position: absolute;
         top: 0%;
