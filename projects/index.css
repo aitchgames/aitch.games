@@ -1,13 +1,13 @@
 body{
     height: 100vh;
     width: 90%;
-    background-image: linear-gradient(to right top, #6e7000, #171500);
+    background-image: linear-gradient(to right top, #130031, #070017);
 }
 a{
     cursor: pointer;
 }
 ::selection{
-    background: #7e8200;
+    background: #6200ff;
     color: #ffffff;
 }
 
@@ -31,29 +31,24 @@ a{
 }
 
 .bgProjects{
-    min-height: 50%;
+    min-height: 10%;
     width: 95%;
     background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 49%;
+    top: 28.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .textProjects{
+    font-family: monospace;
     color: rgba(255, 255, 255, 255);
     position: absolute;
     left: 0.5%;
     top: 2%;
 }
-
-.img1{
-    position: absolute;
-    left: 0%;
-}
-
 
 .bgPages{
     height: 100px;
@@ -76,15 +71,12 @@ a{
         top: 0%;
         left: 2%;
     }
+    .textProjects span{
+        font-size: 19px !important;
+    }
     .bgProjects{
-        height: 100%;
-        top: 75%;
-    }
-    .img1{
-        top: 12%;
-    }
-    .img1 img{
-        height: 150px !important;
+        height: 30%;
+        top: 35%;
     }
     .bgPages{
         height: 75px;
