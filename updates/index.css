@@ -30,23 +30,33 @@ a{
     left: 2%
 }
 
-.bgUpdates{
-    min-height: 22.5%;
+.bgLog3{
+    min-height: 95%;
     width: 95%;
     background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 35.125%;
+    top: 71.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.textUpdates{
+.textLog3-3{
     color: rgba(255, 255, 255, 255);
     position: absolute;
     left: 0.5%;
     top: 2%;
+}
+.textLog3Time{
+    color: rgba(255, 255, 255, 255);
+    position: absolute;
+    top: 130%;
+}
+.img1 img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 500px;
 }
 
 .bgPages{
@@ -70,8 +80,19 @@ a{
         top: 0%;
         left: 2%;
     }
-    .textUpdates span{
-        font-size: 19px !important;
+    .bgLog3{
+        height: 30%;
+        top: 70%;
+    }
+    .textLog3-3 span{
+        font-size: 17px !important;
+    }
+    .textLog3Time{
+        top: 210%;
+    }
+    .img1 img{
+        height: 85%;
+        width: 85%;
     }
     .bgPages{
         height: 75px;
