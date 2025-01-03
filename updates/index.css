@@ -62,3 +62,22 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*device compatability*/
+
+@media (max-width: 450px){
+    .textTitle{
+        top: 0%;
+        left: 2%;
+    }
+    .textUpdates span{
+        font-size: 19px !important;
+    }
+    .bgPages{
+        height: 75px;
+        bottom: -6%;
+    }
+    .bgPages span{
+        font-size: 23px !important;
+    }
+}
