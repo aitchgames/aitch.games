@@ -148,3 +148,47 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*device compatability*/
+
+@media (max-width: 450px){
+    .textTitle{
+        top: 0%;
+        left: 2%;
+    }
+    .bgBio1{
+        height: 45%;
+        top: 43%;
+    }
+    .textBio1 span{
+        font-size: 19px !important;
+    }
+    .bgBio2{
+        height: 45%;
+        top: 92%
+    }
+    .textBio2 span{
+        font-size: 19px !important;
+    }
+    .bgBio3{
+        height: 45%;
+        top: 141%;
+    }
+    .textBio3 span{
+        font-size: 19px !important;
+    }
+    .bgBio4{
+        height: 45%;
+        top: 190%;
+    }
+    .textBio4 span{
+        font-size: 19px !important;
+    }
+    .bgPages{
+        height: 75px;
+        bottom: -6%;
+    }
+    .bgPages span{
+        font-size: 23px !important;
+    }
+}
