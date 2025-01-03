@@ -163,3 +163,277 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*device compatability*/
+
+@media (max-width: 600px){
+    .textTitle{
+        position: absolute;
+        top: 0%;
+        left: 2%;
+    }
+    .bgLog5{ /*pos 5*/
+        min-height: 35%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 41.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog4{ /*pos 4*/
+        min-height: 35%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog3{ /*pos 3*/
+        min-height: 35%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 118.5%; /*EDIT THIS TO CHANGE UPDATE X-POS (34% + 24%n), LIM.=5*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog2{ /*pos 2*/
+        min-height: 35%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 157%; /*EDIT THIS TO CHANGE UPDATE X-POS (34% + 24%n), LIM.=5*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog1{ /*pos 1*/
+        min-height: 35%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 195.5%; /*EDIT THIS TO CHANGE UPDATE X-POS (34% + 24%n), LIM.=5*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog3Time{
+        top: 109%;
+    }
+    .textLog2Time{
+        top: 109%;
+    }
+    .textLog1Time{
+        top: 120%;
+    }
+    .bgPages{
+        height: 50px;
+        bottom: -3.25%;
+    }
+    .bgPages span{
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 430px){
+    .textTitle{
+        position: absolute;
+        top: 0%;
+        left: 2%;
+    }
+    .bgLog5{ /*pos 5*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog4{ /*pos 4*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog3{ /*pos 3*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 101%; /*EDIT THIS TO CHANGE UPDATE X-POS (34% + 24%n), LIM.=5*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog2{ /*pos 2*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 134%; /*EDIT THIS TO CHANGE UPDATE X-POS (34% + 24%n), LIM.=5*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bgLog1{ /*pos 1*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 167%; /*EDIT THIS TO CHANGE UPDATE X-POS (34% + 24%n), LIM.=5*/
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog3Time{
+        top: 109%;
+    }
+    .textLog2Time{
+        top: 130%;
+    }
+    .textLog1Time{
+        top: 120%;
+    }
+    .bgPages{
+        height: 75px;
+        bottom: -3.25%;
+    }
+    .bgPages span{
+        font-size: 23px !important;
+    }
+}
+@media (max-width: 1440px){
+    .textTitle{
+        position: absolute;
+        top: 0%;
+        left: 2%;
+    }
+    .textTitle h1{
+        font-size: 125px !important;
+    }
+    .textTitle h2{
+        font-size: 55px !important;
+    }
+    .bgLog5{ /*pos 5*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog5-5 span{
+        font-size: 60px !important;
+    }
+    .bgLog4{ /*pos 4*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog4-4 span{
+        font-size: 60px !important;
+    }
+    .bgLog3{ /*pos 3*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 96%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog3-3 span{
+        font-size: 60px !important;
+    }
+    .bgLog2{ /*pos 2*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 129%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog2-2 span{
+        font-size: 60px !important;
+    }
+    .bgLog1{ /*pos 1*/
+        min-height: 30%;
+        width: 95%;
+        background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 162%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textLog1-1 span{
+        font-size: 60px !important;
+    }
+    .textLog3Time{
+        top: 109%;
+    }
+    .textLog2Time{
+        top: 155%;
+    }
+    .textLog1Time{
+        top: 120%;
+    }
+    .bgPages{
+        height: 400px;
+        bottom: -6%;
+    }
+    .bgPages span{
+        font-size: 80px !important;
+    }
+}
