@@ -63,3 +63,26 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*device compatability*/
+
+@media (max-width: 450px){
+    .textTitle{
+        top: 0%;
+        left: 2%;
+    }
+    .textProjects span{
+        font-size: 19px !important;
+    }
+    .bgProjects{
+        height: 30%;
+        top: 35%;
+    }
+    .bgPages{
+        height: 75px;
+        bottom: -6%;
+    }
+    .bgPages span{
+        font-size: 23px !important;
+    }
+}
