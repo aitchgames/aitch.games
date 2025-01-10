@@ -31,14 +31,14 @@ a{
 }
 
 .bgUpdates{
-    min-height: 22.5%;
+    min-height: 95%;
     width: 95%;
     background-image: linear-gradient(to right top,#5a5a5a, #2a2a2a);
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 35.125%;
+    top: 71.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
